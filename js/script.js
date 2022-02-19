@@ -22,3 +22,14 @@ $(function () {
     });
 
 });
+/* =========================================
+              nav size
+============================================ */
+$(window).on('load', function () {
+    $(".container").css("width",$(window).width());
+       console.log('wid',$(window).width());
+});
+$(window).resize(function() {         
+    $(".container").css("width",$(window).width());
+    console.log('wid',$(window).width());
+ });
