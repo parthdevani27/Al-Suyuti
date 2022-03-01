@@ -129,6 +129,15 @@
     .site-nav-wrapper {
         padding: 0;
     }
+    .logo-images{
+        border-radius: 20px;
+        height: 80px;
+        width: 80px;
+    }
+    .top-logo-al{
+        height: 65px;
+        width: 65px;
+    }
     /* Home */
     #home-heading h1 {
         font-size: 41px;
@@ -199,6 +208,16 @@
 /* Extra Small Devices (Landscape Phones & Portrait Tablets) */
 
 @media (max-width: 767px) {
+    .logo-images{
+        border-radius: 18px;
+        height: 75px;
+        width: 75px;
+    }
+    .top-logo-al{
+        height: 60px;
+        width: 60px;
+        margin-top: -10px;
+    }
     /* Navigaiton */
     .navbar {
         padding: 20px 0;
@@ -412,6 +431,16 @@
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 480px) {
+    .logo-images{
+        border-radius: 16px;
+        height: 65px;
+        width: 65px;
+    }
+    .top-logo-al{
+        height: 55px;
+        width: 55px;
+        margin-top: -10px;
+    }
     /* Home */
     #home-heading h1 {
         font-size: 18px;

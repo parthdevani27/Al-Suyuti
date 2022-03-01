@@ -12,6 +12,16 @@
 /* =========================================
                 Home
 ============================================ */
+.logo-images{
+    border-radius: 25px;
+    height: 100px;
+    width: 100px;
+}
+body{
+    background-image: url('../img/background/bg.jpg') !important;
+    z-index: 1;
+}
+
 #leftBackgroung {
     background: url(../img/background/seafood-bg.jpeg);
     background-repeat: no-repeat;
@@ -19,7 +29,9 @@
     width: 50%;
     position: absolute;
     left: 0px;
-    height: 100%;
+    top:25%;
+    bottom:25%;
+    height: 50%;
     z-index: -1;
  }
  
@@ -30,7 +42,9 @@
     width: 50%;
     position: absolute;
     right: 0px;
-    height: 100%;
+    top:25%;
+    bottom:25%;
+    height: 50%;
     z-index: -1;
  }
  #home-overlay {
@@ -57,7 +71,7 @@
     width: 50%;
     height: 100%;
     position: fixed;
-    top: 35%;
+    top: 27%;
     left: 0;
 }
 
@@ -65,7 +79,7 @@
     width: 50%;
     height: 100%;
     position: fixed;
-    top: 35%;
+    top: 27%;
     right: 0;
 }
 #social-link {
@@ -116,6 +130,16 @@
     background-color: #f4c613;
     border: 1px solid #f4c613;
 }
+.top-logo-al{
+    height: 75px;
+    width: 75px;
+    border-radius: 75px;
+    margin-top: -20px;
+
+}
+
+
+
 
 /* =========================================
                 Home--end
