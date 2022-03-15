@@ -95,8 +95,9 @@ body{
 }
 #tech-statement h3 {
     color: #fff;
-    font-size: 17px;
+    font-size: 26px;
     line-height: 30px;
+    text-transform: uppercase;
 }
 
 #tech-statement p {
